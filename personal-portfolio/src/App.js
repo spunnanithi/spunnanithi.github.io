@@ -1,8 +1,18 @@
 import "./App.css";
-import LandingPage from "./components/LandingPage";
+import Navbar from "./components/Navbar";
+import AboutPage from "./pages/AboutPage";
+import LandingPage from "./pages/LandingPage";
+import ProjectsPage from "./pages/ProjectsPage";
 
 function App() {
-	return <LandingPage />;
+	return (
+		<>
+			<Navbar />
+			<LandingPage />
+			<AboutPage />
+			<ProjectsPage />
+		</>
+	);
 }
 
 export default App;
