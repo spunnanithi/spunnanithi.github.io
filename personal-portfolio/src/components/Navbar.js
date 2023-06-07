@@ -39,7 +39,7 @@ const Navbar = () => {
 					data-te-collapse-item>
 					{/* Navbar title */}
 					<a
-						className="pr-2 text-xl font-bold text-black dark:text-indigo-500"
+						className="pr-2 text-xl font-bold dark:bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 text-transparent bg-clip-text"
 						href="#hero">
 						Sirasit Punnanithi
 					</a>
